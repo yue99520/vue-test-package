@@ -1,4 +1,4 @@
-import MyComponent from "@/components/MyComponent";
+import MyComponent from "./MyComponent";
 
 MyComponent.install = function (Vue) {
     Vue.component('my-component', MyComponent);

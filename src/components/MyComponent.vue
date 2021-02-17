@@ -5,11 +5,9 @@
 <script>
 export default {
     name: "MyComponent",
-    data: function () {
-        return {
-            title: ""
-        }
-    }
+    props: {
+        title: String
+    },
 }
 </script>
 

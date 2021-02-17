@@ -1,13 +1,23 @@
 {
-  "name": "vue-test-package",
-  "version": "0.0.1",
-  "main": "dist/vue-test-package.common.js",
+  "name": "vue-ernie-test-package",
+  "version": "0.0.4",
+  "main": "dist/vue-ernie-test-package.common.js",
+  "author": "ErnieLi <dy99520@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:lib": "vue-cli-service build --target lib --name vue-test-package ./src/components/index.js",
+    "build:lib": "vue-cli-service build --target lib --name vue-ernie-test-package './src/components/index.js'",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yue99520/vue-test-package.git"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
